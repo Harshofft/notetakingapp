@@ -1,0 +1,30 @@
+.font-size{
+    font: 700;
+    font-size: 20px;
+}
+.font-style{
+    font-family: cursive;
+}
+.fecard-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.btns{
+    border: none;
+    background-color: #585959;
+    color: aliceblue;
+    padding: 0.8rem 1.5rem;
+    border-radius: 1rem;
+    transition: 0.5s;
+    font-size: 1.3rem;
+}
+.btns:hover{
+    background-color: #262626;
+}
