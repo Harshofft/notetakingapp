@@ -5,6 +5,10 @@ import Brain from './brain.png'
 import Security from './cyber-security.png'
 import Featurecard from './../../components/featureCard/feature'
 import { Link } from 'react-router-dom'
+import Hovercard from './../../components/Hovercard/Hovercard'
+import Img1 from './../../components/Hovercard/HoverImg/img1.jpg'
+import Img2 from './../../components/Hovercard/HoverImg/img5.png'
+import Img3 from './../../components/Hovercard/HoverImg/wukong-removebg-preview.png'
 function home() {
   return (
     <div className='main-color home-container'>
@@ -16,10 +20,11 @@ function home() {
         <Featurecard featureImg={Security} featureDec='To keep your data safe' />
         </div>
         <div className='btn-container'>
-          <Link to='/add'>  <button  className='btns'>Add Note📝</button> </Link>
-          <Link to='/show'> <button  className='btns'>Show   Note 📒</button></Link>
+          <Link to='/add'>  <Hovercard title={'Add Note📕'} imgchar={Img2}/> </Link>
+          <Link to='/show'> <Hovercard title={'Show note📝'} imgchar={Img3}/> </Link>
            
         </div>
+        
     </div>
   )
 }

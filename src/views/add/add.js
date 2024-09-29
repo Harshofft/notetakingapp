@@ -58,7 +58,7 @@ function Add() {
       }}>
       {emoji? emoji :'Select your emoji'}
       </div>
-      <EmojiPicker height={'300px'} width={'400px'} searchDisabled={true} skinTonesDisabled={true} open={selectedEmoji} onEmojiClick={(emojiObject) => {
+      <EmojiPicker height={'300px'} width={'400px'} skinTonesDisabled={true} open={selectedEmoji} onEmojiClick={(emojiObject) => {
         setEmoji(emojiObject.emoji)
         setSelectedEmoji(false)
       }} className='emoji-picker' />
