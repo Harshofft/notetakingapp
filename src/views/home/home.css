@@ -2,6 +2,28 @@
     font: 700;
     font-size: 20px;
 }
+.center{
+    text-align: center;
+}
+.home-icon{
+    position: fixed;
+    top: 2rem;
+    left: 4rem;
+}
+.primary-color{
+    background-color: #585959;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.heading{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.font-center{
+    text-align: center;
+}
 .font-style{
     font-family: cursive;
 }
@@ -9,6 +31,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 .btn-container{
     display: flex;
